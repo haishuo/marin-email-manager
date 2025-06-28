@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Marin-specific files to exclude
+config/credentials.json
+config/token.json
+config/settings.json
+config/.env
+data/attachments/
+data/exports/
+data/logs/
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
