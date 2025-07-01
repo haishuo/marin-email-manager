@@ -178,3 +178,11 @@ data/logs/*
 
 # Environment variables
 .env.local
+
+# Marin v2.0 specific
+models/bert_base/*.bin
+models/bert_base/*.json
+models/bert_personalized/*.bin  
+models/bert_personalized/*.json
+training/temp/
+training/logs/
